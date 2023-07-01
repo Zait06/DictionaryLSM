@@ -6,8 +6,10 @@ erDiagram
 WORD {
     Hash id PK
     string name
+    string definition
     string description
-    string URL
+    string imageURL
+    string videoURL
     int type
     int conjugation
 }

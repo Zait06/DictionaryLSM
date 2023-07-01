@@ -33,7 +33,9 @@ class WordSchema {
     +Hash id 
     +String name
     +String description
-    +URL url
+    +String description
+    +URL imageURL
+    +URL videoURL
     +WordType type
     +VerbType conjugation
     +toJSON() JSON
