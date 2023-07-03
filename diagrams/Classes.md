@@ -32,12 +32,13 @@ class VerbType {
 class WordSchema {
     +Hash id 
     +String name
-    +String description
+    +String definition
     +String description
     +URL imageURL
     +URL videoURL
     +WordType type
     +VerbType conjugation
+    +static fromJSON(JSON json) WordSchema
     +toJSON() JSON
 }
 
