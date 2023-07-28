@@ -1,5 +1,5 @@
 <template>
-  <v-layout id="nav-container">
+  <div id="cont-nav-bar">
     <v-bottom-navigation
       v-model="value"
       :elevation="0"
@@ -11,16 +11,14 @@
       <v-btn>
         <router-link to="/" class="link-bar-nav">Inicio</router-link>
       </v-btn>
-
       <v-btn>
         <router-link to="/" class="link-bar-nav">Palabras</router-link>
       </v-btn>
-
       <v-btn>
         <router-link to="/" class="link-bar-nav">Contacto</router-link>
       </v-btn>
     </v-bottom-navigation>
-  </v-layout>
+  </div>
 </template>
 
 <script lang="ts">
@@ -37,6 +35,10 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#cont-nav-bar{
+  height: 57px;
+}
 
 .link-bar-nav{
   color: white;
