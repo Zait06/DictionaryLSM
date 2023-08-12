@@ -1,7 +1,7 @@
 <template>
     <v-footer
       color="#3F004F"
-      height="auto"
+      id="footer"
     >
       <v-row>
         <v-col>
@@ -33,6 +33,10 @@
 </script>
 
 <style>
+#footer{
+  margin-top: 20px;
+  max-height: 80px; 
+}
 .img-footer{
     width: 89px;
     height: 65px;

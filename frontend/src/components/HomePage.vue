@@ -1,8 +1,8 @@
 <template>
-  <div id="cont-img-lsm">
+  <div class="cont-img-lsm">
     <v-img
       src="@/assets/lsm-img.png"
-      id="img-dicc-lsm"
+      class="img-dicc-lsm"
     ></v-img>
   </div>
   <div id="cont-pag-principal">
@@ -26,14 +26,14 @@
 </script>
 
 <style>
-#cont-img-lsm{
+.cont-img-lsm{
   display: flex;
   justify-content: center;
 }
 
-#img-dicc-lsm{
-  width: 215px;
-  height: 200px;
+.img-dicc-lsm{
+  width: 215px !important;
+  height: 200px !important;
   margin-top: 30px;
 }
 
@@ -57,6 +57,7 @@
 
 #cont-pag-principal p{
   margin: 15px;
+  text-align: justify;
 }
 
 </style>

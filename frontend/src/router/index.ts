@@ -16,6 +16,11 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/words-dictionary',
+    name: 'WordsPage',
+    component: () => import('@/views/Words.vue')
+  }
 ]
 
 const router = createRouter({

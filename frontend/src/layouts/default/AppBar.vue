@@ -12,7 +12,7 @@
         <router-link to="/" class="link-bar-nav">Inicio</router-link>
       </v-btn>
       <v-btn>
-        <router-link to="/" class="link-bar-nav">Palabras</router-link>
+        <router-link to="/words-dictionary" class="link-bar-nav">Palabras</router-link>
       </v-btn>
       <v-btn>
         <router-link to="/" class="link-bar-nav">Contacto</router-link>
